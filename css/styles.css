@@ -1,0 +1,164 @@
+/*=================
+		Header
+===================*/
+
+header {
+	border-bottom: .125em #DED2B4 solid;
+}
+
+header div a {
+	color: black;
+	
+}
+
+
+nav {
+	text-align: center;
+	padding-top: 2.5em;
+}
+
+nav li,
+footer li {
+	display: inline;
+	margin: 0 3em;
+
+}
+
+
+/*==================
+		Font
+====================*/
+
+h1,
+h3,
+h4 {
+	color: #43484e;
+}
+
+section h4 {
+	color: #003E47;
+}
+
+p {
+	color: #4D4C4B;
+}
+
+section p,
+footer li {
+	color: black;
+}
+
+footer p {
+	font-size: .75em;
+}
+
+
+/*==================
+		Body
+====================*/
+
+body {
+	background: url('../img/crossword.png');
+}
+
+
+section {
+		
+}
+
+img, 
+object {
+max-width: 100%;
+height: 200px;
+}
+
+article {
+	margin: 3em 0;
+}
+
+img {
+	margin: 2em 0;
+}
+
+
+/*=====================
+	Contact
+=======================*/
+
+#gmap {
+	height: 250px;
+	width: 450px;
+	margin: 3em;
+}
+
+.info {
+	padding-top: 3em;
+}
+
+/*==================
+		Form
+====================*/
+
+label {
+	color: #4D4C4B;
+}
+
+/*==================
+		Orbit
+====================*/
+
+.orbit{
+	width: 100%;
+}
+
+.orbit-img{
+	height: 250px;
+	width: 100%;
+}
+
+/*==================
+		Accordion
+====================*/
+
+.accordion {
+	margin: 1em 0;
+}
+
+.content::after {
+	content : ".";
+  display : block;
+  height : 0;
+  clear : both;
+  visibility : hidden;
+}
+
+#acco {
+	background: #DBE8E3;
+}
+
+/*==================
+		Buttons
+====================*/
+
+button {
+	background: #746D68;
+}
+
+a.medium.round.button {
+	background: #746D68;
+}
+
+a.medium.round.button:hover {
+	background: #3E3D3C;
+}
+
+/*==================
+		Footer
+====================*/
+
+footer {
+	border-top: .125em #DED2B4 solid;
+	padding-top: .5em;
+	width: 100%;
+}
+
