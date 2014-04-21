@@ -3,12 +3,11 @@
 ===================*/
 
 header {
-	border-bottom: .125em #DED2B4 solid;
-}
+	
+	}
 
 header div a {
 	color: black;
-	
 }
 
 
@@ -80,27 +79,23 @@ img {
 	margin: 2em 0;
 }
 
+li {
+	color: black;
+	list-style: none;
+}
 
 /*=====================
 	Contact
 =======================*/
 
 #gmap {
-	height: 250px;
+	height: 425px;
 	width: 450px;
 	margin: 3em;
 }
 
 .info {
 	padding-top: 3em;
-}
-
-/*==================
-		Form
-====================*/
-
-label {
-	color: #4D4C4B;
 }
 
 /*==================
