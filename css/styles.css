@@ -30,7 +30,8 @@ footer li {
 
 h1,
 h3,
-h4 {
+h4,
+h5 {
 	color: #43484e;
 }
 
@@ -75,9 +76,9 @@ article {
 	margin: 3em 0;
 }
 
-img {
+/*img {
 	margin: 2em 0;
-}
+}*/
 
 li {
 	color: black;
