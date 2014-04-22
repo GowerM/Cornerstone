@@ -2,8 +2,8 @@
 		Header
 ===================*/
 
-header {
-	
+header h1 {
+	margin-bottom: -.25em;
 	}
 
 header div a {
@@ -13,14 +13,22 @@ header div a {
 
 nav {
 	text-align: center;
-	padding-top: 2.5em;
+	padding-top: 1em;
+	background: #566220;
+}
+
+nav li a {
+	color: #E7E5D6;
+}
+
+nav li a:hover {
+	color: #82999F;
 }
 
 nav li,
 footer li {
 	display: inline;
 	margin: 0 3em;
-
 }
 
 
@@ -32,7 +40,12 @@ h1,
 h3,
 h4,
 h5 {
-	color: #43484e;
+	color: #26484A;
+}
+
+h4.tagLine {
+	text-align: center;
+	margin-top: 2em;
 }
 
 section h4 {
@@ -61,11 +74,6 @@ body {
 	background: url('../img/crossword.png');
 }
 
-
-section {
-		
-}
-
 img, 
 object {
 max-width: 100%;
@@ -73,16 +81,67 @@ height: 200px;
 }
 
 article {
-	margin: 3em 0;
+	margin: 0 auto;
 }
 
-/*img {
-	margin: 2em 0;
-}*/
+section p{
+	margin-top: 2em;
+}
+
+section.info {
+	margin-top: -3em;
+}
+
+ .mar {
+ 	margin: 2em 0;
+ }
+
+ ul.files li a {
+ 	color: #429993;
+ }
+
+ ul.files li a:hover {
+ 	color: #82999F;
+ }
 
 li {
 	color: black;
 	list-style: none;
+}
+
+.bg1 {
+	background: #9CAA6D;
+	padding: 1.5em 0 0 0;
+	margin-bottom: 1em;
+	margin-top: -1em;
+}
+
+.bg1 p {
+	color: #E7E5D6;
+}
+
+/*=================
+		Images
+==================*/
+
+img, 
+object {
+max-width: 100%;
+height: 200px;
+margin-top: 2em;
+margin-bottom: 2em;
+}
+
+img.logo {
+	height: 108px;
+	width: 360px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+img.mug {
+	height: 300px;
+	width: 700px;
 }
 
 /*=====================
@@ -132,28 +191,13 @@ li {
 	background: #DBE8E3;
 }
 
-/*==================
-		Buttons
-====================*/
-
-button {
-	background: #746D68;
-}
-
-a.medium.round.button {
-	background: #746D68;
-}
-
-a.medium.round.button:hover {
-	background: #3E3D3C;
-}
 
 /*==================
 		Footer
 ====================*/
 
 footer {
-	border-top: .125em #DED2B4 solid;
+	border-top: .125em #344964 solid;
 	padding-top: .5em;
 	width: 100%;
 }
