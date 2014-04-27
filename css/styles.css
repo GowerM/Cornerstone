@@ -2,9 +2,9 @@
 		Header
 ===================*/
 
-header h1 {
+/*header h1 {
 	margin-bottom: -.25em;
-	}
+	}*/
 
 header div a {
 	color: black;
@@ -15,6 +15,7 @@ nav {
 	text-align: center;
 	padding-top: 1em;
 	background: #566220;
+	margin-bottom: 1em;
 }
 
 nav li a {
@@ -45,7 +46,7 @@ h5 {
 
 h4.tagLine {
 	text-align: center;
-	margin-top: 2em;
+	margin-top: 1em;
 }
 
 section h4 {
@@ -74,11 +75,6 @@ body {
 	background: url('../img/crossword.png');
 }
 
-img, 
-object {
-max-width: 100%;
-height: 200px;
-}
 
 article {
 	margin: 0 auto;
@@ -88,9 +84,9 @@ section p{
 	margin-top: 2em;
 }
 
-section.info {
+/*section.info {
 	margin-top: -3em;
-}
+}*/
 
  .mar {
  	margin: 2em 0;
@@ -124,7 +120,7 @@ li {
 		Images
 ==================*/
 
-img, 
+/*img, 
 object {
 max-width: 100%;
 height: 200px;
@@ -142,7 +138,7 @@ img.logo {
 img.mug {
 	height: 300px;
 	width: 700px;
-}
+}*/
 
 /*=====================
 	Contact
