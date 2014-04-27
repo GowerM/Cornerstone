@@ -14,20 +14,20 @@ header div a {
 nav {
 	text-align: center;
 	padding-top: 1em;
-	background: #566220;
+	background: #C0D248;
 	margin-bottom: 1em;
 }
 
 nav li a {
-	color: #E7E5D6;
+	color: #828CA6;
+	font-size: 1.25em;
 }
 
 nav li a:hover {
 	color: #82999F;
 }
 
-nav li,
-footer li {
+nav li {
 	display: inline;
 	margin: 0 3em;
 }
@@ -46,7 +46,7 @@ h5 {
 
 h4.tagLine {
 	text-align: center;
-	margin-top: 1em;
+	margin-top: 1.75em;
 }
 
 section h4 {
@@ -62,8 +62,8 @@ footer li {
 	color: black;
 }
 
-footer p {
-	font-size: .75em;
+.entice h4 {
+	color: #C0D248;
 }
 
 
@@ -114,6 +114,27 @@ li {
 
 .bg1 p {
 	color: #E7E5D6;
+}
+
+.entice p {
+	font-size: .75em;
+	color: white;
+
+}
+
+
+.entice {
+	background: #828CA6;
+}
+
+
+/*=================
+		Button
+==================*/
+
+a.button {
+	background: #C0D248;
+	color: black;
 }
 
 /*=================
@@ -193,8 +214,8 @@ img.mug {
 ====================*/
 
 footer {
-	border-top: .125em #344964 solid;
-	padding-top: .5em;
+	border-top: .125em #C0D248 solid;
+	
 	width: 100%;
 }
 
